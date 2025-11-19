@@ -59,7 +59,7 @@ flatpickr(refs.inputPicker, {
         message: 'Please choose a date in the future',
         position: 'topRight',
         messageColor: '#fff',
-        iconUrl: './img/octagon.svg',
+        iconUrl: '../img/octagon.svg',
         iconColor: '#fff',
         backgroundColor: '#ef4040',
         class: 'custom-toast',
