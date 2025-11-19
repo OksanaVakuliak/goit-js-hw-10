@@ -9,11 +9,12 @@
 @import url('./base.css');
 @import url('./container.css');
 @import url('./animations.css');
-@import 'simplelightbox/dist/simple-lightbox.min.css';
+@import 'flatpickr/dist/flatpickr.min.css';
+@import 'izitoast/dist/css/iziToast.min.css';
 
 /* Sections style */
 @import url('./header.css');
 @import url('./vite-promo.css');
 @import url('./back-link.css');
-@import url('./1-gallery.css');
-@import url('./2-forms.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');

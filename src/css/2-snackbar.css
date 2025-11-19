@@ -1,0 +1,98 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  margin-left: 156px;
+  margin-top: 36px;
+}
+
+.form .delay-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 16px;
+  transition: border-color linear 250ms;
+}
+.form .delay-input:hover {
+  border-color: #000;
+}
+.form .delay-input:focus {
+  border-color: #4e75ff;
+}
+.form .delay-input-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.form fieldset {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 78px;
+  margin: 16px 0 24px 0;
+  padding-top: 18px;
+  transition: border-color linear 250ms;
+}
+.form fieldset:hover,
+.form fieldset:focus {
+  border-color: #000;
+}
+
+.form fieldset .radio-input-legend {
+  margin-left: 8px;
+  text-align: start;
+}
+
+.form .radio-input {
+  accent-color: #4e75ff;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  transition: all linear 250ms;
+}
+.form .radio-input:hover {
+  border-color: #000;
+}
+
+.radio-input-label {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+}
+
+.submit-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.iziToast-wrapper .custom-toast {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.03em;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
