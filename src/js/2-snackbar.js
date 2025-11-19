@@ -1,5 +1,5 @@
 import iziToast from 'izitoast';
-import iconPathError from '../img/octagon.svg';
+import iconPath from '../img/octagon.svg';
 import iconPathSuccess from '../img/circle.svg';
 
 const form = document.querySelector('.form');
@@ -39,7 +39,7 @@ const handleSubmit = event => {
         titleColor: '#fff',
         message: `promise in ${delay}ms`,
         messageColor: '#fff',
-        iconUrl: iconPathError,
+        iconUrl: iconPath,
         backgroundColor: '#ef4040',
         position: 'topRight',
         class: 'custom-toast',
