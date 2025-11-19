@@ -1,5 +1,6 @@
 import flatpickr from 'flatpickr';
 import iziToast from 'izitoast';
+import iconPath from '../img/octagon.svg';
 
 const refs = {
   inputPicker: document.querySelector('#datetime-picker'),
@@ -59,7 +60,7 @@ flatpickr(refs.inputPicker, {
         message: 'Please choose a date in the future',
         position: 'topRight',
         messageColor: '#fff',
-        iconUrl: './img/octagon.svg',
+        iconUrl: iconPath,
         iconColor: '#fff',
         backgroundColor: '#ef4040',
         class: 'custom-toast',
